@@ -6,15 +6,15 @@ public class QuestionsTest {
 
     @Test
     public void testQuestion1() {
-        int expectedResult = (int) Math.PI / 1;
-        int actualResult = q.question1();
+        double expectedResult = Math.PI / 1;
+        int actualResult = (q.question1);
         Assert.assertEquals(3, 2);
     }
 
     @Test
     public void testQuestion2() {
-        int expectedResult = (int) Math.pow(2, 4) - 2;
-        int actualResult = q.question2();
+        int expectedResult = Math.pow(2, 4) - 2;
+        double actualResult = (q.question2);
         Assert.assertEquals(14, 5);
     }
 
